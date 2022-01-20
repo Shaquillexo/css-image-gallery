@@ -42,6 +42,10 @@ body {
  .row h1 {
     padding-block: 4rem;
 }
+
+audio {
+    max-width: 9.5rem;
+}
 ::-webkit-scrollbar {
     background-color: #C03221;
     width: 0.8rem;
