@@ -27,7 +27,7 @@ body {
 }
 
 .materialbox-caption {
-    text-shadow: 1px 2px black;
+    text-shadow: 1px 2px 2px black;
     line-height: 0.8;
     width: 40%;
     font-size: 3rem;
@@ -35,12 +35,13 @@ body {
     right: 0;
     padding: 10px;
     margin: auto;
-    /* background-color: black; */
-    /* box-shadow: 5px 5px 5px 5px white; */
-    
+    font-weight: 900;
+       
 }
 
-
+ .row h1 {
+    padding-block: 4rem;
+}
 ::-webkit-scrollbar {
     background-color: #C03221;
     width: 0.8rem;
